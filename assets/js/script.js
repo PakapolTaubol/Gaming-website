@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * add event on multiple elements
  */
@@ -11,8 +9,6 @@ const addEventOnElements = function (elements, eventType, callback) {
     elements[i].addEventListener(eventType, callback);
   }
 }
-
-
 
 /**
  * MOBILE NAVBAR
@@ -37,8 +33,6 @@ const navClose = () => {
 
 addEventOnElements(navLinks, "click", navClose);
 
-
-
 /**
  * HEADER and BACK TOP BTN
  * header and back top btn will be active after scrolled down to 100px of screen
@@ -59,8 +53,6 @@ const activeEl = function () {
 
 window.addEventListener("scroll", activeEl);
 
-
-
 /**
  * Button hover ripple effect
  */
@@ -73,8 +65,6 @@ const buttonHoverRipple = function (event) {
 }
 
 addEventOnElements(buttons, "mousemove", buttonHoverRipple);
-
-
 
 /**
  * Scroll reveal
@@ -93,10 +83,7 @@ const revealElementOnScroll = function () {
 }
 
 window.addEventListener("scroll", revealElementOnScroll);
-
 window.addEventListener("load", revealElementOnScroll);
-
-
 
 /**
  * Custom cursor
