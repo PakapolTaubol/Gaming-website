@@ -5,9 +5,9 @@
 
   <h2 align="center">GameHive - eSports Gaming Website</h2>
 
- GameHive is a fully responsive esports gaming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+GameHive is a fully responsive esports gaming website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codingstella.github.io/Gaming-website/"><strong>➥ Live Demo</strong></a>
+<a href="https://codingstella.github.io/Gaming-website/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
